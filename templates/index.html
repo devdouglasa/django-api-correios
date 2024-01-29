@@ -15,7 +15,7 @@
                 {% csrf_token %}
                 <div class="col container shadow p-3 mb-5  bg-body rounded-4" style="width: 400px; height: 200px;">
                     <label for="" class="form-label mt-2">Digite seu CEP:</label>
-                    <input type="text" class="form-control" placeholder="Ex: 64005000" aria-label="CEP" name="cep" required>
+                    <input type="text" class="form-control" placeholder="Ex: 64005000" aria-label="CEP" name="cep" maxlength="8" required>
                     <div class="d-flex justify-content-center">
                         <input class="btn btn-primary mt-4" type="submit" value="Enviar">
                     </div>
